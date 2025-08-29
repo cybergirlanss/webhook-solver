@@ -12,8 +12,6 @@ A Spring Boot application that automatically generates webhooks, solves SQL prob
 
 ## 📋 Problem Statement
 
-For registration number `22bsa10229` (ends with 29 - odd), the application solves:
-
 **"Find the highest salary that was credited to an employee, but only for transactions that were not made on the 1st day of any month. Along with the salary, extract employee name (combined first and last name), age, and department name."**
 
 ## 🛠️ Technology Stack
