@@ -60,21 +60,7 @@ webhook-solver/
 
 ### Prerequisites
 - Java 21 or higher
-- Maven 3.6+ 
-
-### Build and Run
-```bash
-# Clone the repository
-git clone https://github.com/cybergirlanss/webhook-solver.git
-
-# Navigate to project directory
-cd webhook-solver
-
-# Build the project
-mvn clean package
-
-# Run the application
-java -jar target/webhook-solver.jar
+- Maven 3.6+
 
 ## 📝 API Endpoints
 
@@ -98,3 +84,18 @@ Content-Type: application/json
 ## 📄 License
 
 This project is created for educational purposes as part of the Bajaj Finserv Health hiring process.
+
+### Build and Run
+```bash
+# Clone the repository
+git clone https://github.com/cybergirlanss/webhook-solver.git
+
+# Navigate to project directory
+cd webhook-solver
+
+# Build the project
+mvn clean package
+
+# Run the application
+java -jar target/webhook-solver.jar
+
