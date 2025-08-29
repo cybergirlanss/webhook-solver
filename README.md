@@ -55,37 +55,16 @@ webhook-solver/
 - **webhook-solver.jar**: Executable JAR file (Spring Boot fat jar)
 - **pom.xml**: Maven dependencies and build configuration
 
-
-## 🏃‍♂️ How to Run
-
-### Prerequisites
-- Java 21 or higher
-- Maven 3.6+
-
-## 📝 API Endpoints
-
-The application makes these API calls automatically:
-
-### 1. Generate Webhook
-```http
-POST https://bfhldevapigw.healthrx.co.in/hiring/generateWebhook/JAVA
-Content-Type: application/json
-
-{
-  "name": "Ansu M George",
-  "regNo": "xyzzz", 
-  "email": "your.email@example.com"
-}
-
-## 👨‍💻 Developer
-
-**Name:** Ansu M George  
-
 ## 📄 License
 
 This project is created for educational purposes as part of the Bajaj Finserv Health hiring process.
 
 
+## 🏃‍♂️ How to Run
+
+### Prerequisites
+- Java 21 or higher
+- Maven 3.6+ 
 
 ### Build and Run
 ```bash
@@ -100,3 +79,5 @@ mvn clean package
 
 # Run the application
 java -jar target/webhook-solver.jar
+
+
